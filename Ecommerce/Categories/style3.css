@@ -1,0 +1,285 @@
+:root{
+    --orange: #35ff57;
+    --black:#130f40;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    --border:.2rem solid rgba(0,0,0,.1);
+    --outline:1rem solid rgba(0,0,0,.1);
+    --outline-hover:--black;
+}
+*{ 
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .1s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+    scroll-padding-top: 7rem;
+}
+section{
+    padding: 2rem 9%;
+}
+.heading{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.3rem;
+    color: var(--black);
+}
+.heading span{
+    background: var(--orange);
+    color: #fff;
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    border: .2rem transparent;
+    color: var(--black);
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+}
+.btn:hover{
+    background-color: var(--orange);
+    font-weight:bold;
+}
+.header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2rem 1%;
+    background: rgba(255, 255, 255, 0);
+    
+}
+.header .navbar.active{
+    right: 2rem;
+    transition: .4s linear;
+}
+.header .navbar a{
+    font-size: 2.3rem;
+    margin: 0 2rem;
+    color: var(--black);
+    z-index: 100;
+}
+
+.header .navbar a:hover{
+    color: var(--orange)
+}
+.navbar a:hover{
+    
+    transition: 0.3s;
+}
+
+header .icons{
+    display: flex;
+}
+.header .icons div{
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    border-radius: .5rem;
+    background: #eee;
+    color: var(--black);
+    font-size: 1.8rem;
+    cursor: pointer;
+    margin-right: .3rem;
+    text-align: center;
+    padding-top: 0.2rem;
+}
+.header .icons div:hover{
+    background: var(--orange);
+    color: #fff;
+}
+#menu-btn{
+    display: none;
+}
+.header .shopping-cart{
+    position: absolute;
+    top: 110%; right: -110%;
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: var(--box-shadow);
+    width: 30rem;
+    background: #fff;
+}
+.header .shopping-cart.active{
+    right: 2rem;
+    transition: .4s linear;
+}
+.header .shopping-cart .box{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    margin: 1rem 0;
+}
+.header .shopping-cart .box img{
+    height: 10rem;
+
+}
+
+.header .shopping-cart .box .trash{
+    font-size: 2rem;
+    position: absolute;
+    top:50%; right:1rem;
+    cursor: pointer;
+    color: var(--light-color);
+    transform: translateY(-50%);
+}
+.header .shopping-cart .box .trash:hover{
+    color: var(--orange);
+}
+
+.header .shopping-cart .box .content h3{
+    color: var(--black);
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+}
+.header .shopping-cart .box .content span{
+    color: var(--light-color);
+    font-size: 1.2rem;
+}
+.header .shopping-cart .box .content .quantity{
+    padding-left: 1rem;
+}
+.header .shopping-cart .total{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    text-align: center;
+    color: var(--black);
+}
+.header .shopping-cart .btn{
+    display: block;
+    text-align: center;
+    margin: 1rem 0;
+}
+header.sticky{
+    padding: 1rem 2rem;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+}
+/*home*/
+.home1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(pexels-ylanite-koppens-1445416.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 12rem;
+    padding-bottom: 10rem;
+}
+
+.home1 .content{
+    text-align: center;
+    width: 60rem;
+}
+
+.home1 .content h3{
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.home1 .content h3 span{
+    color: var(--orange);
+    font-size: 3rem;
+}
+.home1 .content p{
+    color: rgb(255, 255, 255);
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+    font-weight: bold;
+}
+/*home end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+    .header{
+        padding: 2rem;
+    }
+}
+@media(max-width:768px){
+
+    #menu-btn{
+        display: inline-block;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top: 110%; right: -110%;
+        width: 30rem;
+        box-shadow: var(--box-shadow);
+        border-radius: .5rem;
+        background: #fff;
+    }
+
+    .header .navbar a{
+        font-size: 2rem;
+        margin: 2rem 2.5rem;
+        display: block;
+    }
+}

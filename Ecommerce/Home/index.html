@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+
+        <a href="#" class="logo"><img src="Logo_TV_2015.png" width="55px"></a>
+
+        <nav class="navbar">
+            <a href="#home" class="ab">Home</a>    
+            <a href="#features">Features</a>    
+            <a href="#products">Products</a>    
+            <a href="#categories">Categories</a>    
+            <a href="#review">Review</a>    
+        </nav>
+
+        <div class="icons">
+            <div class="bars" id="menu-btn"><ion-icon name="grid-outline"></ion-icon></div>
+            <div class="search" id="search-btn"><ion-icon name="search"></ion-icon></div>
+            <div class="favourites"><ion-icon name="heart-outline"></ion-icon></div>
+            <div class="cart" id="cart-btn"><ion-icon name="cart"></ion-icon></div>
+            <a href="/Loginss/Login1.html"><div class="user" id="user-btn"><ion-icon name="person-outline"></ion-icon></div></a>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Search here.....">
+            <label for="search-box"><ion-icon name="search"></ion-icon></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <ion-icon name="trash-outline" class="trash"></ion-icon>
+                <img src="WhatsApp Image 2022-09-12 at 8.59.28 PM (2).jpeg" width="130rem">
+                <div class="content">
+                    <h3>Watermelon</h3>
+                    <span class="price">98/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <ion-icon name="trash-outline" class="trash"></ion-icon>
+                <img src="WhatsApp Image 2022-09-12 at 8.59.28 PM (1).jpeg">
+                <div class="content">
+                    <h3>Milk</h3>
+                    <span class="price">50/-</span>
+                    <span class="quantity">qty : 1l</span>
+                </div>
+            </div>
+            <div class="box">
+                <ion-icon name="trash-outline" class="trash"></ion-icon>
+                <img src="WhatsApp Image 2022-09-12 at 8.59.28 PM.jpeg">
+                <div class="content">
+                    <h3>coriendar leaf</h3>
+                    <span class="price">30/-</span>
+                    <span class="quantity">qty : 1kg</span>
+                </div>
+            </div>
+            <div class="total"> total : 178/-</div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+
+    </header>
+
+    <!--Home section starts-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh and <span>Organic</span> products for you</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum dolorum eius ex! Accusantium, eaque consectetur!</p>
+            <a href="#" class="btn">Shop Now</a>
+       </div>
+    </section>
+    <!--home section ends-->
+
+
+    <!--features section starts-->
+    <section class="features" id="features">
+        <h1 class="heading">Our <span>features</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="WhatsApp Image 2022-10-12 at 10.16.48 PM.jpeg" width="310rem">
+                <h3>Fresh and Organic</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, odio?</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="box">
+                <img src="WhatsApp Image 2022-10-12 at 10.17.09 PM.jpeg" width="200rem">
+                <h3>Free Delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, odio?</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="box">
+                <img src="WhatsApp Image 2022-10-12 at 10.16.28 PM.jpeg" width="290rem">
+                <h3>Easy Payments</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, odio?</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+    <!--features section end-->
+
+    <!--products section starts-->
+    <section class="products" id="products">
+        <h1 class="heading">Our <span>Products</span> </h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="WhatsApp Image 2022-10-13 at 12.22.53 AM (1).jpeg" alt="">
+                    <h3>Oranges</h3>
+                    <div class="price">20rs/pc</div>
+                    <div class="stars">
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star-half-outline" class="i"></ion-icon>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="WhatsApp Image 2022-10-13 at 12.22.53 AM.jpeg" alt="">
+                    <h3>Cabbage</h3>
+                    <div class="price">30/kg</div>
+                    <div class="stars">
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star-half-outline" class="i"></ion-icon>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="WhatsApp Image 2022-10-13 at 12.22.52 AM (1).jpeg" alt="">
+                    <h3>Chicken</h3>
+                    <div class="price">250/kg</div>
+                    <div class="stars">
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star-half-outline" class="i"></ion-icon>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="WhatsApp Image 2022-10-13 at 12.22.50 AM (1).jpeg" alt="">
+                    <h3>Onion</h3>
+                    <div class="price">40/kg</div>
+                    <div class="stars">
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star-half-outline" class="i"></ion-icon>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="WhatsApp Image 2022-10-13 at 12.22.51 AM.jpeg" alt="">
+                    <h3>Cheese</h3>
+                    <div class="price">225/500gm</div>
+                    <div class="stars">
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star-half-outline" class="i"></ion-icon>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="WhatsApp Image 2022-10-13 at 12.22.52 AM.jpeg" alt="">
+                    <h3>Carrot</h3>
+                    <div class="price">30/kg</div>
+                    <div class="stars">
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star-half-outline" class="i"></ion-icon>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="WhatsApp Image 2022-10-13 at 12.22.50 AM.jpeg" alt="">
+                    <h3>Apple</h3>
+                    <div class="price">60/kg</div>
+                    <div class="stars">
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star-half-outline" class="i"></ion-icon>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="WhatsApp Image 2022-10-13 at 12.22.49 AM (1).jpeg" alt="">
+                    <h3>Tilapiya Fish</h3>
+                    <div class="price">250/kg</div>
+                    <div class="stars">
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star-half-outline" class="i"></ion-icon>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="WhatsApp Image 2022-10-13 at 12.22.49 AM.jpeg" alt="">
+                    <h3>Ruhi Fish</h3>
+                    <div class="price">350/kg</div>
+                    <div class="stars">
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star-half-outline" class="i"></ion-icon>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--products section ends-->
+
+    <!--categories section starts-->
+    <section class="categories" id="categories">
+        <h1 class="heading">Product <span>Categories</span> </h1> 
+        <div class="box-container">
+            <div class="box">
+                <img src="WhatsApp Image 2022-10-12 at 10.16.48 PM.jpeg" alt="">
+                <h3>Vegitables</h3>
+                <p>upto 45% off</p>
+                <a href="/Categories/categories.html" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="WhatsApp Image 2022-10-14 at 12.03.44 AM.jpeg" alt="">
+                <h3>Fruits</h3>
+                <p>upto 45% off</p>
+                <a href="/Categories/categories.html" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="WhatsApp Image 2022-10-14 at 12.03.45 AM.jpeg" alt="">
+                <h3>Dairy Products</h3>
+                <p>upto 45% off</p>
+                <a href="/Categories/categories.html" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="WhatsApp Image 2022-10-14 at 12.03.43 AM.jpeg" alt="">
+                <h3>Meat Products</h3>
+                <p>upto 45% off</p>
+                <a href="/Categories/categories.html" class="btn">shop now</a>
+            </div>
+        </div>
+    </section>
+    <!--categories section ends-->
+
+    <!--Review part starts-->
+    <section class="review" id="review">
+        <h1 class="heading">Customer's <span>Review</span></h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="face/WhatsApp Image 2022-10-14 at 12.59.42 AM (1).jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione laboriosam culpa commodi minus quaerat quia eveniet, aspernatur nesciunt pariatur dignissimos.</p>
+                    <h3>Asis Malhotra</h3>
+                    <div class="stars">
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star-half-outline" class="i"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="face/WhatsApp Image 2022-10-14 at 12.59.39 AM.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione laboriosam culpa commodi minus quaerat quia eveniet, aspernatur nesciunt pariatur dignissimos.</p>
+                    <h3>Ritwika Chawla</h3>
+                    <div class="stars">
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star-half-outline" class="i"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="face/WhatsApp Image 2022-10-14 at 12.59.40 AM.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione laboriosam culpa commodi minus quaerat quia eveniet, aspernatur nesciunt pariatur dignissimos.</p>
+                    <h3>Anisha Sharma</h3>
+                    <div class="stars">
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star-half-outline" class="i"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="face/WhatsApp Image 2022-10-14 at 12.59.41 AM.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione laboriosam culpa commodi minus quaerat quia eveniet, aspernatur nesciunt pariatur dignissimos.</p>
+                    <h3>lucy Gomes</h3>
+                    <div class="stars">
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star-half-outline" class="i"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="face/WhatsApp Image 2022-10-14 at 12.59.42 AM.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione laboriosam culpa commodi minus quaerat quia eveniet, aspernatur nesciunt pariatur dignissimos.</p>
+                    <h3>Thomas Brown</h3>
+                    <div class="stars">
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star-half-outline" class="i"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="face/WhatsApp Image 2022-10-14 at 12.59.43 AM.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione laboriosam culpa commodi minus quaerat quia eveniet, aspernatur nesciunt pariatur dignissimos.</p>
+                    <h3>Lizzy D'selva</h3>
+                    <div class="stars">
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star-half-outline" class="i"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="face/WhatsApp Image 2022-10-14 at 12.59.44 AM.jpeg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione laboriosam culpa commodi minus quaerat quia eveniet, aspernatur nesciunt pariatur dignissimos.</p>
+                    <h3>Kyra Jones</h3>
+                    <div class="stars">
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star" class="i"></ion-icon>
+                        <ion-icon name="star-half-outline" class="i"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Review part ends-->
+    <br><br><br>
+    <!--Footer section starts-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <img src="Logo_TV_2015.png" height="90rem">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, perspiciatis?</p>
+                <div class="share">
+                    <a href="#"><ion-icon name="logo-facebook" class="i"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram" class="i"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter" class="i"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-linkedin" class="i"></ion-icon></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Contact us</h3>
+                <a href="#" class="links"><ion-icon name="call" class="i"></ion-icon>+123-456-7890</a>
+                <a href="#" class="links"><ion-icon name="call" class="i"></ion-icon>+958-648-2579</a>
+                <a href="#" class="links"><ion-icon name="mail" class="i"></ion-icon>abc15799@gmail.com</a>
+                <a href="#" class="links"><ion-icon name="location" class="i"></ion-icon>Kolkata, India 700045</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" placeholder="Subscribe" class="btn"><br><br>
+                <img src="face/credit-card-png-credit-card-icons-e1426531278719-png-752.png" class="payment-img" height="90rem" alt="">
+            </div>
+        </div>
+
+        <div class="credit">©2022|createdby|Swastika Dutta|all rights reserved</div>
+
+    </section>
+    <!--footer section ends-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="main2.js"></script>
+
+</body>
+</html>
